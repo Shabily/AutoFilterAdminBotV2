@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "<text>"
+                caption = "<file_caption>"
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️Our Channel Linkz⭕️', url="https://t.me/SM_Movies_Linkz"
+                                    '♏️Main Channel♏️', url="https://t.me/SM_Cinimas_Official"
                                 )
                         ]
                     ]
