@@ -48,7 +48,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('My Dev👷‍♂️', url='https://t.me/SM_Officials'),
-        InlineKeyboardButton('Main Channel♏️', url ='https://SM_Cinimas_Official')
+        InlineKeyboardButton('Main Channel♏️', url='https://t.me/SM_Cinimas_Official')
     ],[
         InlineKeyboardButton('Our Group🔰', url='https://t.me/SM_Cinimas_Group')
     ],[
